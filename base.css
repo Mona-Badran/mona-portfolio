@@ -25,15 +25,26 @@ a{
   left: 10px; 
 
 }
+.container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: flex-start; /* Vertically align items at the top */
+  padding: 20px; /* Adjusted padding */
+  max-width: 900px; /* Set a max width for the content */
+  margin: 50px auto; /* Center container on the page */
+}
+
 /* helped by chat gpt fixing the image over the empty frame but not copy code */
 .image-container {
   position: relative;
   display: inline-block;
   top: 30px;
   left: 25px; 
-
+  margin-right: 20px;
+  width: 30%;
 }
 .image-container img {
+  width: 100%;
   display: block;
   border-radius: 5px; 
   position: relative;
@@ -46,4 +57,18 @@ a{
   height: 100%;
   border: 5px solid #00bfff;
   border-radius: 5px; 
+}
+.text-container {
+  width: 60%;
+  padding-left: 80px;
+}
+
+.text-container h1 {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.text-container p {
+  line-height: 2;
+  color: #ffffff;
 }
