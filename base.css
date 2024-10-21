@@ -1,8 +1,49 @@
-  .flex-container {
-    display: flex;
-  }
-  
-  .flex-container > li {
-    margin: 20px;
-    display: inline;
-  }
+.flex-container > li {
+  margin: 20px;
+  display: inline;
+}
+body{
+  background-color: #0e1830;
+  margin: 10px;
+}
+.flex-container {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.flex-container li:first-child {
+  margin-right: auto;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: medium;
+}.Mona-Badran{
+  color: #00bfff;
+  text-decoration: none;
+  font-size: xx-large;
+  left: 10px; 
+
+}
+/* helped by chat gpt fixing the image over the empty frame but not copy code */
+.image-container {
+  position: relative;
+  display: inline-block;
+  top: 30px;
+  left: 25px; 
+
+}
+.image-container img {
+  display: block;
+  border-radius: 5px; 
+  position: relative;
+}
+.frame {
+  position: absolute;
+  top: 15px; 
+  left: 15px; 
+  width: 100%;
+  height: 100%;
+  border: 5px solid #00bfff;
+  border-radius: 5px; 
+}
