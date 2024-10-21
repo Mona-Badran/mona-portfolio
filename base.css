@@ -1,0 +1,8 @@
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-container > li {
+    margin: 20px;
+    display: inline;
+  }
