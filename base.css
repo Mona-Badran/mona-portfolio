@@ -110,3 +110,20 @@ margin-bottom: -60px;
 .experience1-container h4{
   color: #6c6a6c; 
 }
+.experience2-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 900px;
+  margin: 50px auto;
+}
+.experience2-container h2{
+  color: #ffffff; 
+}
+.experience2-container h3{
+  color: #ffffff; 
+}
+.experience2-container h4{
+  color: #6c6a6c; 
+}
