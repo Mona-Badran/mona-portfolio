@@ -5,6 +5,7 @@
 body{
   background-color: #0e1830;
   margin: 10px;
+
 }
 .flex-container {
   display: flex;
@@ -27,11 +28,11 @@ a{
 }
 .container {
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
-  align-items: flex-start; /* Vertically align items at the top */
-  padding: 20px; /* Adjusted padding */
-  max-width: 900px; /* Set a max width for the content */
-  margin: 50px auto; /* Center container on the page */
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 900px;
+  margin: 50px auto;
 }
 
 /* helped by chat gpt fixing the image over the empty frame but not copy code */
@@ -71,4 +72,24 @@ a{
 .text-container p {
   line-height: 2;
   color: #ffffff;
+}
+
+.container-index {
+  margin: 50px auto;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px; 
+  max-width: 900px;
+}
+.i-am{
+  font-size: 2.5rem;
+  color: #6c6a6c; 
+margin-bottom: -60px;
+}
+.softwar-dev{
+  font-size: 5rem;
+  line-height: 1.1;
+  color: #ffffff; 
+
 }
