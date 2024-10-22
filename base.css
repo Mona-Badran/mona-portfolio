@@ -26,7 +26,7 @@ a{
   left: 10px; 
 
 }
-.container {
+.about-container {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -35,7 +35,8 @@ a{
   margin: 50px auto;
 }
 
-/* helped by chat gpt fixing the image over the empty frame but not copy code */
+/* helped by chat gpt fixing the image over the empty frame and in few of the flex boxes 
+(still trying to understand flex box in css) but I didn't copy any code */
 .image-container {
   position: relative;
   display: inline-block;
@@ -74,7 +75,7 @@ a{
   color: #ffffff;
 }
 
-.container-index {
+.index-container {
   margin: 50px auto;
   text-align: left;
   justify-content: flex-start;
@@ -91,5 +92,21 @@ margin-bottom: -60px;
   font-size: 5rem;
   line-height: 1.1;
   color: #ffffff; 
-
+}
+.experience1-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 900px;
+  margin: 50px auto;
+}
+.experience1-container h2{
+  color: #ffffff; 
+}
+.experience1-container h3{
+  color: #ffffff; 
+}
+.experience1-container h4{
+  color: #6c6a6c; 
 }
